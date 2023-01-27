@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <title>Social - Login</title>
+    <meta name="author" content="Cristina Ruiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/login.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../Multimedia/Logopestaña.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div id="fondo">
+
+        <div id="CajaHijo">
+            <form action="Menu.html">
+                
+
+                <img src="../multimedia/Logo.png" id="logo">
+                <br>
+                <br>
+                
+                <img src="../Multimedia/usuario.png" id="imagenUsuario">
+                <input type="text" name="usuario"id="datos" size="20" maxlength="20" placeholder="Usuario/Correo" autofocus required>
+
+                <br>
+                <br>
+                <img src="../multimedia/bloqueo.png" id="imagenBloqueo">
+                <input type="password" name="password" id="datos" size="20" placeholder="Contraseña" pattern="[a-z]{0-10}" required>
+                <br>
+                <br>
+                <div id="olvidadayRecordar">
+                    <p><a href="contraseñaOlvidada.html">¿Has olvidado la contraseña?</a></p>
+                    <input type="checkbox" id="Recordarcheck"  name="Recordar" value="Car">
+                    <label for="Recordar" id="Recordar">Recordar Usuario</label>
+                </div>
+                <br>
+                <input type="submit" id="boton"  value="Iniciar Sesion">
+                    <p id="cuenta">¿Aun no tienes cuenta? <a href="Alta.html"> REGISTRATE</a></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>

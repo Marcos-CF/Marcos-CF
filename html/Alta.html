@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Social - Registro</title>
+    <meta name="author" content="Cristina Ruiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/Alta.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="../Multimedia/Logopestaña.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <div id="fondo">
+
+        <div id="CajaHijo">
+            <form action="Login.html">
+<img src="../Multimedia/acceso.png" id="acceso">
+                <h1>Regístrate</h1>
+                <br>
+                <br>
+               
+                
+                    <input type="text" name="nombre" id="datos" maxlength="20" placeholder="Nombre" autofocus required>
+                    <br>
+                    <input type="text" name="apellidos" id="datos" maxlength="50" placeholder="Apellidos" required>
+                    <br>
+                    <input type="text" name="correo" id="datos" size="20" placeholder="Correo" required>
+                    <br>
+                    <input type="text" name="usuario" id="datos" size="20" placeholder="Nombre usuario" required>
+                    <br>
+                    <input type="password" name="contraseña" id="datos" minlength="8" placeholder="Contraseña" required>
+                    <br>
+                
+                
+                <div id="olvidadayRecordar">
+
+                <input type="checkbox" id="Recordarcheck" name="checkcondiciones" required>
+                <label for="condiciones" id="condiciones">Acepte términos y condiciones</label>
+                </div>
+                <br>
+                <input type="submit" id="boton" value="Registrar">
+                <p id="cuenta">¿Ya tienes cuenta? <a href="Login.html">Iniciar Sesion</a></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
