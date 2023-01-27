@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#Encabezado {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #121111;
+    padding: 20px;
+    width: auto;
+    align-items: center;
+    height: auto;
+}
+
+nav {
+    /* background: #ffffff; */
+    color:#121111;
+    font-size: 30px;
+    padding: 5px;
+    padding-bottom: 5px;
+    border:1px solid #000000;
+    background-color:#ffffff;
+    width: 450px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    font: bold 14px verdana;
+    cursor: default;
+}
+nav a { text-decoration: none;}
+
+nav a:hover { color: rgb(43, 223, 226);}
+
+
+h1 {font: bold;}
+
+h2 { font: bold;}
+
+h3 {color: rgb(53, 53, 53);}
+
+time { color: #6c6c6c;margin-bottom: 30px;}
+
+
+body {
+
+    height: 100%;
+    background: linear-gradient(rgba(77, 100, 250, 1), rgba(0, 236, 255, 1));
+    background-repeat: no-repeat;
+    min-width: 100%;
+}
+
+
+.Bloque1{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    .Bloque2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;}
+
+article {
+    background: #ececec;
+    border-radius: 10px;
+    border: 1px solid #121212;
+    box-shadow: 10px 10px 10px 1px rgb(130, 145, 252);
+    width: 550px;
+    height: 650px;
+    padding:20px;
+}
+
+p {margin-bottom: 20px;
+    margin-top: 10px;
+    text-align: justify;} 
+
+figure {
+    margin-left:100px;
+    height: 297px;
+    width: 210px;
+    /* display:contents; */
+
+}
+
+
+footer{
+    margin-top: 135px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+button {
+    width: 200px;
+    font-size: 20px;
+    padding: 10px; 
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(204, 204, 204);
+    animation-name: Salto; 
+     position: relative;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+@keyframes Salto {
+    0% { top: 0px;}
+    50% {top: 5px;}
+    100% {top: 0px;}
+}
+.True:focus {
+    background-color: rgb(44, 203, 113);
+    color: azure;
+}
+.False:focus {
+    background-color: rgb(255, 47, 47);
+    color: azure;
+}
