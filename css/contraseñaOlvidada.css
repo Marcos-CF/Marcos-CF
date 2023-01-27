@@ -15,7 +15,12 @@ body {
     min-width: 300px;
 }
 
+h1 {
+    text-align: center;
+}
+
 #CajaHijo {
+
     width: 800px;
     min-width: 300px;
     height: 900px;
@@ -26,9 +31,9 @@ body {
     box-shadow: 10px 10px 10px 1px rgb(217, 182, 250);
     background-color: white;
 }
-
-h1 {
-    text-align: center;
+#caja2
+{
+    margin-top: 40px;
 }
 
 div {
@@ -36,94 +41,44 @@ div {
 }
 
 p {
-    margin-top: 13px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
-#olvidadayRecordar {
-    display: flex;
+
+
+#olvido {
+
+    margin-top: 60px;
+    width: 250px;
     align-items: center;
-    justify-content: center;
-}
-
-#Recordar {
-    margin-left: 1%;
-    float: center;
-    font-size: 22px;
-}
-
-#Recordarcheck {
-    margin-left: 20%;
-    font-size: 22px;
-}
-
-#logo {
-    margin-top: 10px;
-    border-radius: 100%;
-    width: 380px;
-    align-items: center;
-    animation-name: logo;
-    position: relative;
-    animation-duration: 3s;
-    animation-delay: 0s;
-}
-
-@keyframes logo {
-    0% {
-        filter: opacity(.5);
-        transform: scale(1.2);
-    }
-
-    25% {
-        filter: opacity(.5);
-    }
-
-    50% {
-        filter: none;
-    }
-
-    100% {
-        rotate: 360deg;
-        
-    }
-}
-
-#logo:hover {
-    transform: scale(1.2);
-    filter: none;
-
 }
 
 
 #datos {
     font-size: 30px;
+    margin-top: 30px;
     width: 50%;
     height: 60px;
     border: 1px solid white;
     box-shadow: 0px 1px 0px 0px black;
     float: center;
-    align-items: center;
+
 }
 
 #imagenUsuario {
     display: inline-block;
+    vertical-align: middle;
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    vertical-align: middle;
+    
 }
 
-#imagenBloqueo {
-    display: inline-block;
-    width: 90px;
-    height: 90px;
-    border-radius: 80%;
-    vertical-align: middle;
-}
+
 
 #boton {
     margin-top: 30px;
-    width: 250px;
+    width: 400px;
     height: 60px;
     font-size: 30px;
     text-align: center;
@@ -132,12 +87,7 @@ p {
     background-color: rgba(77, 100, 250, 1);
     border-radius: 20px;
 }
-
-#boton:hover {
+#boton:hover
+{
     background-color: rgb(212, 166, 255);
 }
-
-#cuenta {
-    margin-top: 30px;
-}
-
