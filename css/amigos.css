@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#Encabezado {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #121111;
+    padding: 20px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+nav {
+    /* background: #ffffff; */
+    color:#121111;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border:1px solid #000000;
+    background-color:#ffffff;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    font: bold 14px verdana;
+    cursor: default;
+}
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover { 
+    color: rgb(43, 223, 226);
+}
+
+/*Estilos Buscador de amigos, Amigos conectados/ausente/offline*/
+
+#chats{
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(rgba(77, 100, 250, 1), rgba(0, 236, 255, 1));
+   
+}
+
+#chat_buscar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #95a5a6;
+}
+
+/*Estilos Buscador de amigos*/
+
+#barra_de_busqueda{
+    height: 40px;
+    width: 60%;
+    padding: 0 20px;
+    border-radius: 50px;
+    border: 1px solid lightslategray;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    
+}
+
+#barra_de_busqueda input{
+    margin-left: 15px;
+    height:38px;
+    width:100%;
+    border:none;
+    font-family: Verdana;
+}
+
+#barra_de_busqueda img{
+    height: 30px;
+    width: 30px;
+}
+
+#boton_mis_amigos{
+    width:120px;
+}
+
+#boton_buscar_amigos{
+    width: 150px;
+    margin-right: 10px;
+}
+/*Estilo contenedor Amigos*/
+
+#chats_todos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.contenedor-chats{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    border: solid 3px black;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.foto-perfil img{
+    width:220px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+   
+}
+
+.foto-perfil{
+    border-bottom: solid 3px black;
+    cursor: pointer;
+}
+
+.nombre{
+    font-size: 20px;
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.estado{
+    margin-bottom: 20px;
+}
+
+.boton_chat{
+    padding: 12px 12px 12px 12px;
+    border-radius: 15px;
+    border: 1px gray solid;
+    width: 90px;
+    margin-left: 5px;
+    height: 40px;
+    background-color: #85868388; 
+    cursor: pointer;   
+    text-align: left;
+    text-indent: -10px;
+    font-weight: bold;
+    color: Black;
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.boton_chat img{
+    width: 25px;
+    height: 25px;
+    position:absolute;
+    right: 10px;
+    top:4px;
+}
+
+.boton_chat:hover {
+    color: #fff;
+}
+.boton_chat::after {
+    content: "";
+    background: #348aecd2;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    border-radius: 50px;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+.boton_chat:hover::after{
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}
+
+.contenedor-chats:hover{
+    background-color: #8ecc64fb;
+    transition: all 0.6s ease-out;
+    animation: skew 0.6s;
+}
+
+@keyframes skew{
+    0%{
+        transform: skew(10deg);
+    }
+    100%{
+        transform: skew(-5deg);
+    }
+}
+
+#buscar_amigos{
+    display: none;
+}
+
