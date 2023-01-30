@@ -1,0 +1,296 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 0px;
+    padding: 0px;
+    color:white
+    
+    
+}
+body{
+  background: rgb(10,78,186);
+background: linear-gradient(180deg, rgba(10,78,186,1) 0%, rgba(43,214,204,1) 100%);
+height: 100vh;
+
+}
+header {
+    
+    color: rgb(0, 0, 0);
+    background: rgb(10,78,186);
+    
+  }
+  .perfil img{
+    width: 70px;
+    height: 70px;
+    margin-left:50px ;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+  }
+  
+  .perfil{
+    display: flex;
+    flex-direction: row;
+    border-left: solid black 2px;
+    align-items: center;
+    
+    
+    
+
+    
+  }
+  
+  .perfil img {
+    margin-right: 21px;
+  }
+  .perfil p{
+    margin-right: 70px;
+
+  }
+  .container {
+    display: flex;
+    border: solid black 2px;
+    
+    
+    
+  }
+  
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin-left:80px ;
+    
+  }
+  .logo{
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: rgb(10,78,186);
+    
+    
+  }
+  
+  nav li {
+    margin-right: 10px;
+    
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color:white;
+    
+  }
+
+  
+  h3:hover{
+    color:rgba(43,214,204,1) ;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    border-bottom: black 2px solid;
+    border-right: black 2px solid;
+    border-left: black 2px solid;
+    height: 50px;
+    align-items: center;
+    
+    
+    
+    
+    
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    width:100%;
+}
+ li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+   
+ }
+
+ video{
+  border-radius: 15px 15px 15px 15px;
+  width: 240px;
+   height: 320px;
+ }
+ 
+h2{
+  margin:30px
+}
+
+ .aside{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  width: 25vh;
+  height: 83.7vh;
+  background-color: white;
+  
+  border-radius: 0px 0px 15px 0px;
+  margin-right: 30px;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  background: linear-gradient(180deg, rgba(10,78,186,1) 0%, rgba(43,214,204,1) 100%);
+ }
+ .EventosImg{
+  display:flex;
+  flex-direction: column;
+ }
+  .NoticiasImg a img{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 20vh;
+    border-radius: 15px 15px 15px 15px;
+
+ }
+ .EventosImg a img {
+  margin-bottom: 30px;
+  margin:20px;
+  
+  width: 200px;
+    height: 290px;
+    border-radius: 15px 15px 15px 15px;
+  
+ }
+ section 
+ {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+ }
+ main{
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ 
+
+article{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  height: 83.7vh;
+  width: 70vw;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  background: linear-gradient(180deg, rgba(10,78,186,1) 0%, rgba(43,214,204,1) 100%);
+  
+
+}
+.historias{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.historiastext{
+ margin-left: 560px;
+}
+
+video:hover{
+  
+  border:solid black 2px;
+}
+
+.Estado{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin: 30px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  
+}
+#estado{
+  margin-top:20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.EstadoTexto{
+  margin-top :20px;
+  text-align: center;
+}
+
+button{
+  margin-bottom:20px;
+  margin-right: 40px;
+  display: flex;
+  text-align: left;
+  color:black;
+  width: 60px;
+  box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+  
+}
+.boton{
+  display: flex;
+   text-align: center;
+  justify-content: right;
+  
+}
+
+.aside2
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  border-bottom:2px solid black;
+  border-left:2px solid black;
+  border-right:2px solid black;
+  width: 27vh;
+  height: 83.7vh;
+  margin-left: 30px;
+  background-color: white;
+  
+  border-radius: 0px 0px 0px 15px;
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  background: linear-gradient(180deg, rgba(10,78,186,1) 0%, rgba(43,214,204,1) 100%);
+}
+
+.AmigosImg{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+  
+}
+.amigo a img{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 11vh;
+  height: 11vh;
+  margin-left: 80px;
+  border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+  margin-top: 15px;
+}
+
+
+.amigo{
+  margin-top: 40px;
+}
