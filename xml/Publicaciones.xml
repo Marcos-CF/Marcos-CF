@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<Publicaciones>
+
+<Encabezado>
+    <imagen src="../Multimedia/Social.png"></imagen>
+    <titulo class="Titulo">Social - Eventos</titulo>
+</Encabezado>
+
+<lista>
+    <menu href="../html/Menu.html">Menu</menu>
+    <perfil href="../html/Perfil.html">Perfil</perfil>
+    <amigos href="../html/Amigos.html">Amigos</amigos>
+    <Mensajes href="../html/Mensajes.html">Mensajes</Mensajes>
+    <Noticias href="../html/Noticias.html">Noticias</Noticias>
+</lista>
+
+<Article class="articulo">
+    <header class="encabezado">
+        <title class="titulo">Salón del manga de Alicante</title>
+        <location class="ubicacion">Institución Ferial Alicantina</location>
+        <date class="fecha">Próxima edición: 15 y 16 de abril de 2023</date>
+    </header>
+    <description class="descripcion" >El próximo Salón del Manga y Cultura Japonesa de Alicante se celebrará los días 15 y 16
+        de abril de 2023 y, durante ese fin de semana, contará con más de 200 actividades
+        relacionadas con la cultura japonesa y muchísimas más sorpresas.</description>
+    <photo src="../Multimedia/evento1.png"></photo>
+    <BotonAsistencia class="button">Asistiré</BotonAsistencia>
+    <BotonDesinteres class="button">No me interesa</BotonDesinteres>   
+</Article>
+
+<Article class="articulo">
+    <header class="encabezado">
+        <title class="titulo">LINKOLN PARK + UPROSONG</title>
+        <subtitle class="subtitulo">Tributo a Linkin Park y Muse</subtitle>
+        <date class="fecha">10 de Febrero de 2023</date>
+    </header>
+    <description class="descripcion">En nuestro firme propósito de mantener viva la música de Linkin Park en nuestro país y hacer honor a
+        la obra de Chester volvemos a la carretera con más ganas que nunca.
+        Su legado va mucho más allá de la música.</description>
+    <photo src="../Multimedia/Evento2.jpg"></photo>
+    <BotonAsistencia class="afirmativo">Asistiré</BotonAsistencia>
+    <BotonDesinteres class="negativo">No me interesa</BotonDesinteres>   
+</Article>
+
+<Article class="articulo">
+    <header class="encabezado">
+        <title class="titulo">Love Zombies</title>
+        <subtitle class="subtitulo">Yincana de Supervivencia Zombie</subtitle>
+        <date class="fecha">3 de Febrero de 2023</date>
+    </header>
+    <description class="descripcion">Los participantes podrán disfrutar de pruebas, miedo, agilidad, puzles y otras aventuras,
+        con la presencia zombies y personajes varios del mundo del terror. Por unas horas los
+        participantes podrán elegir cual es su papel en el juego y pasarlo muy bien.</description>
+    <photo src="../Multimedia/Evento3.jpeg" ></photo>
+    <BotonAsistencia class="afirmativo">Asistiré</BotonAsistencia>
+    <BotonDesinteres class="negativo">No me interesa</BotonDesinteres>   
+</Article>
+
+<Article class="articulo">
+    <header class="encabezado">
+        <title class="titulo">Japan Weekend Madrid</title>
+        <location class="ubicacion">Ifema Madrid</location>
+        <date class="fecha">11 y 12 de Febrero de 2023</date>
+    </header>
+    <description class="descripcion">Japan Weekend Madrid es la mayor feria en España sobre anime, manga, cultura
+        japonesa, videojuegos y el mayor encuentro entre aficionados a la cultura otaku.
+    Vendran artistas de todas partes de España e invitados increibles.</description>
+    <photo src="../Multimedia/Evento4.jpg"></photo>
+    <BotonAsistencia class="afirmativo">Asistiré</BotonAsistencia>
+    <BotonDesinteres class="negativo">No me interesa</BotonDesinteres>   
+</Article>
+
+</Publicaciones>
