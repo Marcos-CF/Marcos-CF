@@ -1,1 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
+<PaginaAmigos>
+
+    <encabezado>
+        <imagen src="../Multimedia/Logotipo.png"></imagen>
+        <titulo>Social - Amigos</titulo>
+    </encabezado>
+    <lista>
+        <Menu>
+            <enlace href="../html/Menu.html">Menu</enlace>
+        </Menu>
+        <Perfil>
+            <enlace href="../html/Perfil.html">Perfil</enlace>
+        </Perfil>
+        <Amigos>
+            <enlace href="../html/Amigos.html">Amigos</enlace>
+        </Amigos>
+        <Mensajes>
+            <enlace href="../html/Mensajes.html">Mensajes</enlace>
+        </Mensajes>
+        <Noticias>
+            <enlace href="../html/Noticias.html">Noticias</enlace>
+        </Noticias>
+        <Eventos>
+            <enlace href="../html/Eventos.html">Eventos</enlace>
+        </Eventos>
+    </lista>
+    <BusquedaAmigos>
+        <BotonMisAmigos>Mis Amigos 
+            <imagen src="../Multimedia/icono-perfil.png"></imagen>
+        </BotonMisAmigos>
+        <BotonBuscarAmigos>Buscar
+            <imagen src="../Multimedia/icono-añadir-a.png"></imagen>
+        </BotonBuscarAmigos>
+        <BarraBusqueda>
+            <imagen src="../Multimedia/icono-lupa.png"></imagen>
+            <cajitaBuscador>Search...</cajitaBuscador>
+        </BarraBusqueda>
+    </BusquedaAmigos>
+    <amigos>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Michel V.A.</nombre>
+            <publicacion class="estado">Lorem ipsum dolor sit amet. ☺</publicacion>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Tomás Okkema</nombre>
+            <publicacion class="estado">Me voy a Barcelona!</publicacion>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Jose C.M.</nombre>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Paula P.M.</nombre>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Rafa P.S.</nombre>
+            <publicacion class="estado">Estoy de Vacaciones :D</publicacion>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Martin L.</nombre>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+        <amigo>
+            <imagen src="../Multimedia/foto-perfil.webp"></imagen>
+            <nombre class="nombre">Oscar M.O.</nombre>
+            <publicacion class="estado">Sancado al perro de paseo u.u</publicacion>
+            <botonPerfil scr="../xml/perfilamigo.html">Perfil <imagen
+                    src="../Multimedia/icono-perfil.png"></imagen>
+            </botonPerfil>
+            <botonMensaje scr="../xml/mensajes.xml">Mensaje <imgagen
+                    src="../Multimedia/icono-enviar.png"></imgagen>
+            </botonMensaje>
+        </amigo>
+    </amigos>
+</PaginaAmigos>
