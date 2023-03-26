@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mensajes>
+    <logo></logo>
+    <titulo>Mensajes</titulo>
+    <contactos>
+        <contacto>
+            <nombre>Esteban</nombre>
+            <actividad>Activo ahora</actividad>
+            <fotoPerfil></fotoPerfil>
+        </contacto>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Maria</nombre>
+            <actividad>Activa hace 18 min</actividad>
+            <fotoPerfil></fotoPerfil>
+        </contacto>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Jaime</nombre>
+            <actividad>Activo hace 54 min</actividad>
+            <fotoPerfil></fotoPerfil>
+        </contacto>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Marcos</nombre>
+            <actividad>Activo hace 2 horas</actividad>
+            <fotoPerfil></fotoPerfil>
+        </contacto>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Paloma</nombre>
+            <actividad>Activa ahora</actividad>
+            <fotoPerfil></fotoPerfil>
+        </contacto>
+    </contactos>
+
+    <chat>
+        <barraEscritura placeHolder = "Enviar mensaje"></barraEscritura>
+        <mensaje>Hola, como estás?</mensaje> 
+        <mensaje>Hola, bien y tu?</mensaje> 
+        <mensaje>Me alegro, bien también</mensaje> 
+        <mensaje>Gracias</mensaje> 
+        <mensaje>De nada</mensaje> 
+    </chat>
+
+
+
+</mensajes>
