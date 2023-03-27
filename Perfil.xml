@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<perfil>
+    <logoPagina>
+        <logo>Social.jpg</logo>
+        <texto>Social</texto>
+    </logoPagina>
+    <menuPerfil>
+        <texto>Menu</texto>
+        <url>Menu.html</url>
+    </menuPerfil>
+    <menuPerfil>
+        <texto>Perfil</texto>
+        <url>Perfil.html</url>
+    </menuPerfil>
+    <menuPerfil>
+        <texto>Amigos</texto>
+        <url>Amigos.html</url>
+    </menuPerfil>
+    <menuPerfil>
+        <texto>Mensajes</texto>
+        <url>Mensajes.html</url>
+    </menuPerfil>
+    <menuPerfil>
+        <texto>Noticias</texto>
+        <url>Noticias.html</url>
+    </menuPerfil>
+    <menuPerfil>
+        <texto>Eventos</texto>
+        <url>Eventos.html</url>
+    </menuPerfil>
+
+    <datosPerfil>
+        <NombreCuenta>MarcosCarratala</NombreCuenta>
+        <NSeguidores>
+            <texto>Seguidores</texto>
+            <numero>2500</numero>
+        </NSeguidores>
+        <NSeguidos>
+            <texto>Seguidos</texto>
+            <numero>23</numero>
+        </NSeguidos>
+        <NPublicaciones>
+            <texto>Publicaciones</texto>
+            <numero>6</numero>
+        </NPublicaciones>
+        
+        <Descripcion>
+            <texto>Hola soy Marcos</texto>
+            <ubicacion>Alicante, España</ubicacion>
+        </Descripcion>
+
+    </datosPerfil>
+
+    <publicacionesPerfil>
+        <Publicaciones>
+            <publicacion1>Imagen1.jpg</publicacion1>
+            <publicacion2>Imagen2.jpg</publicacion2>
+            <publicacion3>Imagen3.jpg</publicacion3>
+            <publicacion4>Imagen4.jpg</publicacion4>
+            <publicacion5>Imagen5.jpg</publicacion5>
+            <publicacion6>Imagen6.jpg</publicacion6>
+        </Publicaciones>
+    </publicacionesPerfil>
+</perfil>
